@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.188.163.199
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1765686667544
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765816181124
+  login: 1765816145911
+money: '0'
+last-account-name: Ohwide2024
+logoutlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: -1.0066179243062083
+  y: 63.0
+  z: 7.058035704452606
+  yaw: 29.310779571533203
+  pitch: 17.572900772094727
+lastlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: 2055.3344737037496
+  y: 84.61690360269297
+  z: 569.7876273399253
+  yaw: 63.1605224609375
+  pitch: 27.02812957763672

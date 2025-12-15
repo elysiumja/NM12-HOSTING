@@ -1,0 +1,18 @@
+[16:35:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[16:35:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[16:35:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:35:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[16:35:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
+ - Chunky (1.4.40), Citizens (2.0.41-SNAPSHOT (build 4021)), Clumps (5.0), CoreProtect (23.0), Essentials (2.21.2), FoliaOrbitals (2.1), LuckPerms (5.5.17), Sentinel (2.9.2-SNAPSHOT (build 527)), SkinsRestorer (15.9.1), WorldEdit (7.3.17+7262-c7fbe08), voicechat (2.6.7)
+[16:35:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:35:18] [ServerMain/ERROR]: Failed to start the minecraft server
+net.minecraft.util.DirectoryLock$LockException: /workspaces/NM12-HOSTING/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:100) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:436) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.world.level.storage.LevelStorageSource.validateAndCreateAccess(LevelStorageSource.java:351) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.Main.main(Main.java:185) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.craftbukkit.Main.main(Main.java:242) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]

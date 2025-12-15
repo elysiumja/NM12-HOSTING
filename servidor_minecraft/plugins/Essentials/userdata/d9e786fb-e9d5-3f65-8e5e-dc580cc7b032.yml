@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.166.20.65
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765686781516
+  login: 1765686599956
+money: '0'
+last-account-name: Cafee_
+lastlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: 2574.8559705531693
+  y: 63.0
+  z: -43.56875909425422
+  yaw: 2.257415771484375
+  pitch: 4.5889787673950195
+logoutlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: 2336.96496424658
+  y: 64.5
+  z: 208.67171145440082
+  yaw: 70.6021957397461
+  pitch: 12.958495140075684
