@@ -1,18 +1,159 @@
-[16:35:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[16:35:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
-[16:35:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:35:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
-[16:35:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
- - Chunky (1.4.40), Citizens (2.0.41-SNAPSHOT (build 4021)), Clumps (5.0), CoreProtect (23.0), Essentials (2.21.2), FoliaOrbitals (2.1), LuckPerms (5.5.17), Sentinel (2.9.2-SNAPSHOT (build 527)), SkinsRestorer (15.9.1), WorldEdit (7.3.17+7262-c7fbe08), voicechat (2.6.7)
-[16:35:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:35:18] [ServerMain/ERROR]: Failed to start the minecraft server
-net.minecraft.util.DirectoryLock$LockException: /workspaces/NM12-HOSTING/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
-	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:100) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:436) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.world.level.storage.LevelStorageSource.validateAndCreateAccess(LevelStorageSource.java:351) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at net.minecraft.server.Main.main(Main.java:185) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at org.bukkit.craftbukkit.Main.main(Main.java:242) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:42:25] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[03:42:25] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[03:42:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:42:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[03:42:25] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - Chunky (1.4.40), Citizens (2.0.41-SNAPSHOT (build 4021)), Clumps (5.0), CoreProtect (23.0), Essentials (2.21.2), FoliaOrbitals (2.1), SkinsRestorer (15.9.1), WorldEdit (7.3.17+7262-c7fbe08)
+[03:42:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:42:34] [ServerMain/INFO]: Loaded 1412 recipes
+[03:42:34] [ServerMain/INFO]: Loaded 1530 advancements
+[03:42:34] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[03:42:34] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 287.6ms
+[03:42:34] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[03:42:34] [Server thread/INFO]: Loading properties
+[03:42:34] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[03:42:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:42:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:42:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:42:35] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[03:42:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[03:42:36] [Server thread/INFO]: Default game type: SURVIVAL
+[03:42:36] [Server thread/INFO]: Generating keypair
+[03:42:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:42:36] [Server thread/INFO]: Using epoll channel type
+[03:42:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:42:36] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[03:42:36] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 4 libraries... please wait
+[03:42:36] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/NM12-HOSTING/servidor_minecraft/libraries/ch/ethz/globis/phtree/phtree/2.8.2/phtree-2.8.2.jar
+[03:42:36] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/NM12-HOSTING/servidor_minecraft/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar
+[03:42:36] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/NM12-HOSTING/servidor_minecraft/libraries/it/unimi/dsi/fastutil/8.5.16/fastutil-8.5.16.jar
+[03:42:36] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/NM12-HOSTING/servidor_minecraft/libraries/team/unnamed/mocha/3.0.0/mocha-3.0.0.jar
+[03:42:36] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/NM12-HOSTING/servidor_minecraft/libraries/org/javassist/javassist/3.30.2-GA/javassist-3.30.2-GA.jar
+[03:42:36] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /workspaces/NM12-HOSTING/servidor_minecraft/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[03:42:36] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.17+7262-c7fbe08
+[03:42:37] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5fcaa300]
+[03:42:37] [Server thread/INFO]: [FoliaOrbitals] Loading server plugin FoliaOrbitals v2.1
+[03:42:37] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.1
+[03:42:37] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v23.0
+[03:42:37] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[03:42:37] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[03:42:37] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.41-SNAPSHOT (build 4021)
+[03:42:37] [Server thread/INFO]: [Clumps] Loading server plugin Clumps v5.0
+[03:42:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:42:37] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.17+7262-c7fbe08
+[03:42:37] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[03:42:37] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[03:42:38] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[03:42:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.1
+[03:42:40] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[03:42:41] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[03:42:41] [Server thread/INFO]: [Clumps] Enabling Clumps v5.0
+[03:42:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:42:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:42:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:42:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:42:41] [Server thread/INFO]: Preparing level "world"
+[03:42:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:42:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[03:42:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[03:42:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[03:42:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[03:42:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[03:42:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:42:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.9.1
+[03:42:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ee713cb
+[03:42:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[03:42:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:42:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[03:42:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[03:42:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:42:42] [Server thread/INFO]: Preparing spawn area: 0%
+[03:42:43] [Server thread/INFO]: Preparing spawn area: 0%
+[03:42:43] [Server thread/INFO]: Time elapsed: 956 ms
+[03:42:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:42:43] [Server thread/INFO]: Preparing spawn area: 0%
+[03:42:44] [Server thread/INFO]: Preparing spawn area: 61%
+[03:42:44] [Server thread/INFO]: Time elapsed: 735 ms
+[03:42:44] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:42:44] [Server thread/INFO]: Preparing spawn area: 0%
+[03:42:44] [Server thread/INFO]: Time elapsed: 82 ms
+[03:42:44] [Server thread/INFO]: Preparing start region for dimension limbo:limbo_dim
+[03:42:44] [Server thread/INFO]: Preparing spawn area: 0%
+[03:42:44] [Server thread/INFO]: Preparing spawn area: 10%
+[03:42:45] [Server thread/INFO]: Time elapsed: 547 ms
+[03:42:45] [Server thread/INFO]: Preparing start region for dimension mystworlds:ice
+[03:42:45] [Server thread/INFO]: Preparing spawn area: 0%
+[03:42:45] [Server thread/INFO]: Time elapsed: 216 ms
+[03:42:45] [Server thread/INFO]: Preparing start region for dimension mystworlds:sanctuary
+[03:42:45] [Server thread/INFO]: Preparing spawn area: 0%
+[03:42:45] [Server thread/INFO]: Time elapsed: 143 ms
+[03:42:45] [Server thread/INFO]: Preparing start region for dimension mystworlds:archipelago
+[03:42:45] [Server thread/INFO]: Preparing spawn area: 0%
+[03:42:45] [Server thread/INFO]: Time elapsed: 269 ms
+[03:42:45] [Server thread/INFO]: Preparing start region for dimension mystworlds:small
+[03:42:45] [Server thread/INFO]: Preparing spawn area: 0%
+[03:42:45] [Server thread/INFO]: Time elapsed: 37 ms
+[03:42:45] [Server thread/INFO]: Preparing start region for dimension mystworlds:wasteland
+[03:42:45] [Server thread/INFO]: Preparing spawn area: 0%
+[03:42:45] [Server thread/INFO]: Time elapsed: 113 ms
+[03:42:45] [Server thread/INFO]: Preparing start region for dimension mystworlds:warrens
+[03:42:45] [Server thread/INFO]: Preparing spawn area: 0%
+[03:42:45] [Server thread/INFO]: Time elapsed: 111 ms
+[03:42:45] [Server thread/INFO]: Preparing start region for dimension mystworlds:skyland
+[03:42:45] [Server thread/INFO]: Preparing spawn area: 0%
+[03:42:45] [Server thread/INFO]: Time elapsed: 82 ms
+[03:42:45] [Server thread/INFO]: [FoliaOrbitals] Enabling FoliaOrbitals v2.1
+[03:42:46] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v23.0
+[03:42:46] [Server thread/INFO]: [CoreProtect] CoreProtect Community Edition has been successfully enabled! 
+[03:42:46] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[03:42:46] [Server thread/INFO]: --------------------
+[03:42:46] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[03:42:46] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[03:42:46] [Server thread/INFO]: --------------------
+[03:42:46] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[03:42:46] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[03:42:46] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[03:42:46] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[03:42:46] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[03:42:47] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[03:42:47] [Server thread/INFO]: [Essentials] Using locale en
+[03:42:47] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[03:42:47] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[03:42:47] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[03:42:47] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[03:42:47] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.41-SNAPSHOT (build 4021)
+[03:42:48] [Server thread/INFO]: [Citizens] Loaded 2 templates.
+[03:42:49] [Server thread/INFO]: [spark] Starting background profiler...
+[03:42:49] [Server thread/INFO]: Done preparing level "world" (8.365s)
+[03:42:49] [Server thread/INFO]: Running delayed init tasks
+[03:42:49] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[03:42:49] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[03:42:49] [Server thread/ERROR]: [Citizens] The trait sentinel failed to load for NPC ID: 0.
+[03:42:49] [Server thread/ERROR]: [Citizens] The trait sentinel failed to load for NPC ID: 1.
+[03:42:49] [Server thread/INFO]: [Citizens] Loaded 2 NPCs.
+[03:42:49] [Server thread/INFO]: Done (26.053s)! For help, type "help"
+[03:42:50] [Thread-16/INFO]: --------------------
+[03:42:50] [Thread-16/INFO]: [CoreProtect] Version 23.1 is now available.
+[03:42:50] [Thread-16/INFO]: [CoreProtect] Download: www.coreprotect.net/download/
+[03:42:50] [Thread-16/INFO]: --------------------

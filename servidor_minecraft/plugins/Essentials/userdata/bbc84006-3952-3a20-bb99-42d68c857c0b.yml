@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.131.113.32
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765827952833
+  login: 1765826669877
+money: '0'
+last-account-name: braytonpro
+logoutlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: 2481.3504972492574
+  y: 64.0
+  z: 204.30000001192093
+  yaw: 3.2994799613952637
+  pitch: -4.800004959106445

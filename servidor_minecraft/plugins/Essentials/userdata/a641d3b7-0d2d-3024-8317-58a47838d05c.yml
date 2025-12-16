@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.27.47.22
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765832132478
+  login: 1765832208898
+money: '0'
+last-account-name: VivaGOKU8669
+lastlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: 3557.8435729065673
+  y: 123.0
+  z: 1528.3060666232104
+  yaw: 83.3212890625
+  pitch: 24.750059127807617
+logoutlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: 3304.301029197832
+  y: 79.0
+  z: 16.69999998807907
+  yaw: -47.27069091796875
+  pitch: 11.449697494506836

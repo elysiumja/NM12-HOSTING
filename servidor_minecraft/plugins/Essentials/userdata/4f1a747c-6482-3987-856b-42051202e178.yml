@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.163.74.100
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765822226649
+  login: 1765826650407
+money: '0'
+last-account-name: dynkcapo13
+logoutlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: -22.26686334100157
+  y: 63.0
+  z: 45.85874753415661
+  yaw: -47.55018615722656
+  pitch: 12.29997730255127
+lastlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: -67206.33962041575
+  y: 64.0
+  z: 2147.6425044635594
+  yaw: -15.44293212890625
+  pitch: -26.311002731323242

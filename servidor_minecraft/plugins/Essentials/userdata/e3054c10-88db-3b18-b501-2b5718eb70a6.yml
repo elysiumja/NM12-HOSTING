@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.180.70.229
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765822445400
+  login: 1765826670443
+money: '0'
+last-account-name: Saulproyex
+logoutlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: -15.435696956374493
+  y: 91.0
+  z: 24.908169128296993
+  yaw: -153.7811279296875
+  pitch: 53.1318359375
+lastlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: -25.558700286550813
+  y: 63.0
+  z: 22.69999998807907
+  yaw: -107.853271484375
+  pitch: -89.09999084472656

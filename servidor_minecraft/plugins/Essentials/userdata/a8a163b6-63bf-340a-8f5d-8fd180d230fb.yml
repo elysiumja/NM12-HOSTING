@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.136.79.42
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765832132472
+  login: 1765832208143
+money: '0'
+last-account-name: LilCatMiau
+logoutlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: 1575.8766114252835
+  y: 90.0
+  z: 1149.1341217256793
+  yaw: -107.98884582519531
+  pitch: 46.87295150756836

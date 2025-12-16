@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.24.85.205
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765832132451
+  login: 1765832207198
+money: '0'
+last-account-name: Michi_Peruano1
+lastlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: 2489.535235249247
+  y: 63.08576431274414
+  z: 500.8288098640053
+  yaw: -86.61190795898438
+  pitch: 52.588497161865234
+logoutlocation:
+  world: f29d7407-b5a9-446f-8802-e9aa6092aca9
+  world-name: world
+  x: 2383.6327840373133
+  y: 64.0
+  z: 214.2344358155498
+  yaw: 0.50738525390625
+  pitch: 77.74325561523438
